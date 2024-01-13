@@ -1,14 +1,23 @@
 @font-face {
     font-family: ETbb-Regular;
-    src: url("ETbb-Regular.otf");
+    src: url("ETbb-Regular.otf") format("opentype"),
+         url("ETbb-Regular.eot") format('embedded-opentype'),
+         url("ETbb-Regular.ttf") format("truetype"),
+         url("ETbb-Regular.woff") format("woff");
 }
 @font-face {
     font-family: ETbb-Bold;
-    src: url("ETbb-Bold.otf");
+    src: url("ETbb-Bold.otf") format("opentype"),
+         url("ETbb-Bold.eot") format('embedded-opentype'),
+         url("ETbb-Bold.ttf") format("truetype"),
+         url("ETbb-Bold.woff") format("woff");
 }
 @font-face {
     font-family: ETbb-Italic;
-    src: url("ETbb-Italic.otf");
+    src: url("ETbb-Italic.otf") format("opentype"),
+         url("ETbb-Italic.eot") format('embedded-opentype'),
+         url("ETbb-Italic.ttf") format("truetype"),
+         url("ETbb-Italic.woff") format("woff");
 }
 
 @media screen and (min-width: 800px) {
@@ -44,7 +53,7 @@ body span {
     }
 
 i {
-    font-family: ETbb-Italic;
+    font-family: 'ETbb-Italic';
 }
 
 div {
@@ -63,34 +72,32 @@ canvas {
 }
 
 p {
-  
     margin-left: 5vw;
     font-size: 2.5vw;
     max-width: 50vw;
-  
-  }
+}
 
 p span {
 //      background-color: white;
-    }
+}
 
 h1 {
     font-size: 5vw;
-  }
+}
 
 h1 span {
 //      background-color: white;
     font-family: 'ETbb-Regular';
-    }
+}
 
 a {
       color: white !important;
     text-decoration: underline !important;
-    }
+}
 
 summary span {
 //      background-color: white;
-    }
+}
 
 details > summary {
     list-style-type: none;
