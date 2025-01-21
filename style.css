@@ -30,6 +30,7 @@
   }
   h1 {
     font-size: 3vw !important;
+    mix-blend-mode: difference;
   }
 }
 @media screen and (max-width:400px){
@@ -44,7 +45,7 @@ body {
     position: absolute;
     z-index: 999999;
     font-size: 2.5vw;
-    font-family: 'Arial';
+    font-family: 'ETbb-Regular';
     line-height: 2.5vw;
     color: white;
 }
