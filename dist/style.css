@@ -42,9 +42,10 @@
   }
   p {
     font-size: 3.5vw !important;
+    margin-left: 10vw !important;
   }
   h1 {
-    font-size: 7vw !important;
+    font-size: 3vw !important;
   }
 }
 
