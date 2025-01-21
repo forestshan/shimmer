@@ -53,7 +53,7 @@ let planearr = [frustum2.planes[0].negate(), frustum2.planes[1].negate(),
 frustum2.planes[2].negate(), frustum2.planes[3].negate(),
 frustum2.planes[4].negate(), frustum2.planes[5].negate()]
 
-var texture = new THREE.TextureLoader().load( "https://raw.githubusercontent.com/lovetheland/shimmer/main/dist/amarillobigx.jpg", THREE.UVMapping );
+var texture = new THREE.TextureLoader().load( "https://raw.githubusercontent.com/lovetheland/shimmer/main/dist/amarillobigxo.jpg", THREE.UVMapping );
 var material = new THREE.MeshBasicMaterial({
   map: texture,
   side: THREE.BackSide,
