@@ -38,6 +38,11 @@
 }
 }
 
+body, div, p, h1, a {
+  	mix-blend-mode: color-dodge;
+  	color: gray;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -46,8 +51,6 @@ body {
     font-size: 2.5vw;
     font-family: 'ETbb-Regular';
     line-height: 2.5vw;
-    mix-blend-mode: hue;
-    color: red;
 }
 body span {
 //      background-color: white;
