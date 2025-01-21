@@ -40,7 +40,7 @@
 
 body, div, p, h1, a {
   	mix-blend-mode: color-dodge;
-  	color: lightgray;
+  	color: #C8C8C8;
 }
 
 body {
@@ -96,7 +96,7 @@ h1 span {
 }
 
 a {
-      color: white !important;
+//      color: white !important;
     text-decoration: underline !important;
 }
 
