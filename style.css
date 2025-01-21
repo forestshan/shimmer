@@ -33,9 +33,19 @@
   }
 }
 @media screen and (max-width:400px){
-  	div {
-  	margin: 6vh !important;
+  div {
+  margin: 9vh !important;
 	}
+  body {
+    font-size: 3.5vw !important;
+    line-height: 3.5vw !important;
+  }
+  p {
+    font-size: 3.5vw !important;
+  }
+  h1 {
+    font-size: 7vw !important;
+  }
 }
 
 p, h1, a, summary {
@@ -48,9 +58,9 @@ body {
     padding: 0;
     position: absolute;
     z-index: 999999;
-    font-size: 4.5vw;
+    font-size: 2.5vw;
     font-family: 'ETbb-Regular';
-    line-height: 4.5vw;
+    line-height: 2.5vw;
 }
 body span {
 //      background-color: white;
