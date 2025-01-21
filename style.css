@@ -24,15 +24,12 @@
   body {
     font-size: 1.5vw !important;
     line-height: 1.5vw !important;
-    mix-blend-mode: difference;
   }
   p {
     font-size: 1.5vw !important;
-    mix-blend-mode: difference;
   }
   h1 {
     font-size: 3vw !important;
-    mix-blend-mode: difference;
   }
 }
 @media screen and (max-width:400px){
