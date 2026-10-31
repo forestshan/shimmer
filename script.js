@@ -53,7 +53,7 @@ let planearr = [frustum2.planes[0].negate(), frustum2.planes[1].negate(),
 frustum2.planes[2].negate(), frustum2.planes[3].negate(),
 frustum2.planes[4].negate(), frustum2.planes[5].negate()]
 
-var texture = new THREE.TextureLoader().load( "https://raw.githubusercontent.com/forestshan/shimmer/main/dist/amarillobigx.jpg", THREE.UVMapping );
+var texture = new THREE.TextureLoader().load( "./amarillobigx.jpg" );
 var material = new THREE.MeshBasicMaterial({
   map: texture,
   side: THREE.BackSide,
@@ -76,7 +76,7 @@ var wiremat = new THREE.MeshBasicMaterial({
 //  clippingPlanes: frustum.planes
 });
 
-const blurTexture = new THREE.TextureLoader().load("https://raw.githubusercontent.com/forestshan/forestshan.github.pages/3a87806e16755c118778a8a1f47d630bb4e49cb5/amarilloblur.jpg", THREE.UVMapping );
+const blurTexture = new THREE.TextureLoader().load("./amarilloblur.jpg");
 
 const material2 = new THREE.MeshPhysicalMaterial({
   normalMap: blurTexture,
