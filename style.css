@@ -53,6 +53,7 @@
 p, h1, a, summary {
   	mix-blend-mode: color-dodge;
   	color: #A0A0A0;
+	font-weight: normal;
 }
 
 body {
